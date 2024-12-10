@@ -8,13 +8,6 @@ export const initialTaskData = [
   },
   {
     id: crypto.randomUUID(),
-    title: "Stay focused",
-    description: "Repeat the process",
-    date: "2024-11-28",
-    category: "todo",
-  },
-  {
-    id: crypto.randomUUID(),
     title: "Doing some coding",
     description: "Doing some coding everyday",
     date: "2024-11-29",
