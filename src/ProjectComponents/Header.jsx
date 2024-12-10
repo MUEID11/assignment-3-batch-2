@@ -27,7 +27,7 @@ export default function Header(){
         <input onChange={(e) =>searchTask(e.target.value)}
           type="text"
           placeholder="Search here"
-          className={`w-full max-w-xl rounded-full px-4 py-2 text-white focus:outline-none ${darkMode ? "bg-gray-700" : "bg-gray-300"}`}
+          className={`w-full max-w-xl rounded-full px-4 py-2 ${darkMode ? 'text-white' : 'text-gray-800'} focus:outline-none ${darkMode ? "bg-gray-700" : "bg-gray-300"}`}
         />
       </div>
       <div className="flex items-center">

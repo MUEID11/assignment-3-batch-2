@@ -1,7 +1,7 @@
 import { categoryStyles } from "../assets";
 import useTask from "../useTask";
 import AddButton from "./AddButton";
-import TaskCard from "./TaskCard"; // Import TaskCard component
+import TaskCard from "./TaskCard"; 
 import Modal from "./Modal";
 
 export default function TaskBoard() {
@@ -11,6 +11,7 @@ export default function TaskBoard() {
     <div className="mx-auto max-w-7xl p-6">
       {/* Add Button */}
       <AddButton />
+      {/*Add and Edit modal*/}
       {showModal && <Modal />}
 
       {/* Render Task Cards */}
