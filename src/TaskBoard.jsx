@@ -1,12 +1,12 @@
-import { categoryStyles } from "../assets";
-import useTask from "../useTask";
-import AddButton from "./AddButton";
-import TaskCard from "./TaskCard"; 
-import Modal from "./Modal";
+import { categoryStyles } from "./assets";
+import useTask from "./useTask";
+import AddButton from "./ProjectComponents/AddButton";
+import TaskCard from "./ProjectComponents/TaskCard";
+import Modal from "./ProjectComponents/Modal";
 
 export default function TaskBoard() {
-  const { tasks,categories,showModal } = useTask();
-  
+  const { tasks, categories, showModal } = useTask();
+
   return (
     <div className="mx-auto max-w-7xl p-6">
       {/* Add Button */}
